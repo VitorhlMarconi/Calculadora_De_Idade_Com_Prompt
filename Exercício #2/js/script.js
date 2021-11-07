@@ -1,8 +1,9 @@
 //Exercício #2: Calculo de idade!
 
     anoNascimento = prompt("Por favor informe a data do seu nascimento");
+    var date = new Date();
 
-     while(anoNascimento >= 2021){
+      while(anoNascimento >= date.getFullYear()){
 
         alert("Por favor, informe seu ano de nascimento corretamente.");
         anoNascimento = prompt("Por favor informe a data do seu nascimento...");
